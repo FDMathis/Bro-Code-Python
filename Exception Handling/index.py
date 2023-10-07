@@ -19,3 +19,6 @@ except Exception as e:
 
 else: 
     print(result)
+
+finally:
+    print("This will always execute at the end.  Can be used to close files and other stuff.")
